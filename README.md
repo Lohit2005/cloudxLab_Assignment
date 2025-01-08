@@ -19,7 +19,7 @@ This project is a web app that allows users to sign up, log in, and manage their
 Clone this repository to your local machine:
 
 
-git clone https://github.com/your-username/repository-name.git
+ - `git clone https://github.com/your-username/repository-name.git`
 <br>
 cd repository-name
 
