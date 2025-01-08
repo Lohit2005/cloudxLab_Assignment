@@ -33,13 +33,11 @@ npm install
 ### 3. Create .env file
 Create a .env file at the root of the project and add the following environment variables:
 
-DB_HOST=localhost
-<br>
-DB_USER=root
-<br>
-DB_PASSWORD=yourpassword
-<br>
-DB_NAME=webapp_db
+   - `DB_HOST`
+   - `DB_USER`
+   - `DB_PASSWORD`
+   - `DB_NAME`
+
 <br>
 Note: Make sure to replace yourpassword with your actual MySQL root password.
 
