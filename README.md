@@ -13,11 +13,10 @@ This project is a web app that allows users to sign up, log in, and manage their
 ## Setup Instructions
 
 ### 1. Clone the repository
-Clone this repository to your local machine.
+Clone this repository to your local machine:
 
-# to clone into github
+
 git clone https://github.com/your-username/repository-name.git
+<br>
 cd repository-name
 
-# Install dependencies
-Install Node.js dependencies using npm. Make sure you have Node.js installed before running the command.
