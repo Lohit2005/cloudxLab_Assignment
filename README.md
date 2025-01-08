@@ -6,29 +6,22 @@
 This project is a web app that allows users to sign up, log in, and manage their account details. It uses Node.js, Express, MySQL, and basic front-end HTML/CSS.
 
 ## Requirements
-<br>
 - Ubuntu 16.04 LTS or any UNIX-based OS
-<br>
 - Node.js (v14.x or higher)
-<br>
 - MySQL
 
 ## Setup Instructions
-<br>
 ### 1. Clone the repository
 Clone this repository to your local machine:
 
-
- - `git clone https://github.com/your-username/repository-name.git`
+- `git clone https://github.com/your-username/repository-name.git`
 - `cd repository-name`
 
-<br>
 ### 2. Install dependencies
 Install Node.js dependencies using npm. Make sure you have Node.js installed before running the command.
 
 - `npm install`
 
-<br>
 ### 3. Create .env file
 Create a .env file at the root of the project and add the following environment variables:
 
@@ -37,10 +30,8 @@ Create a .env file at the root of the project and add the following environment 
    - `DB_PASSWORD`
    - `DB_NAME`
 
-<br>
-Note: Make sure to replace yourpassword with your actual MySQL root password.
+#### Note: Make sure to replace yourpassword with your actual MySQL root password.
 
-<br>
 ### 4. Set up the MySQL Database
 Create the MySQL database and tables based on the schema.
 
@@ -103,7 +94,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **License**: Placeholder for the project’s license.
 
 This `README.md` gives a clear, concise guide on how to set up and run your project on an Ubuntu 16.04 LTS server or any UNIX-based OS.
-
 
 
 
