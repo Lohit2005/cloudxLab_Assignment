@@ -52,7 +52,6 @@ Run the following commands to set up the database (if not already done):
 - `CREATE TABLE users (
   id INT AUTO_INCREMENT PRIMARY KEY,
   first_name VARCHAR(100),
-  <br>
   last_name VARCHAR(100),
   email VARCHAR(100) UNIQUE,
   phone VARCHAR(15),
@@ -64,27 +63,46 @@ You can also include any other migration scripts in a folder called /migrations.
 ### 5. Run the application
 To run the application locally, execute:
 
-npm start
+- `npm start`
 
-The app will be running on http://localhost:3000.
+The app will be running on - `http://localhost:3000.`
 
 ### 6. Test the App
 Visit the following URLs to interact with the app:
 
-Home: http://localhost:3000/
-Login: http://localhost:3000/accounts/login
-Sign Up: http://localhost:3000/accounts/signup
+- `Home: http://localhost:3000/`
+- `Login: http://localhost:3000/accounts/login`
+- `Sign Up: http://localhost:3000/accounts/signup`
 
 ### 7. .gitignore
 Make sure to add the following to your .gitignore file:
 
-node_modules/
-.env
+- `node_modules/`
+- `.env`
 
 This ensures that sensitive information and dependencies are not pushed to GitHub.
 
-# Contributing
+## Contributing
 
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature-branch).
+3. Commit your changes (git commit -am 'Add feature').
+4. Push to the branch (git push origin feature-branch).
+5. Create a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+### Key Points Covered:
+- **Setup instructions**: How to clone, install dependencies, create `.env`, set up the database, and run the application.
+- **MySQL instructions**: Database creation script included for setting up the `webapp_db` and the `users` table.
+- **.gitignore**: Makes sure to ignore `node_modules/` and `.env`.
+- **Contributing**: Basic instructions for contributing to the project.
+- **License**: Placeholder for the project’s license.
+
+This `README.md` gives a clear, concise guide on how to set up and run your project on an Ubuntu 16.04 LTS server or any UNIX-based OS.
 
 
 
