@@ -20,14 +20,13 @@ Clone this repository to your local machine:
 
 
  - `git clone https://github.com/your-username/repository-name.git`
-<br>
-cd repository-name
+- `cd repository-name`
 
 <br>
 ### 2. Install dependencies
 Install Node.js dependencies using npm. Make sure you have Node.js installed before running the command.
 
-npm install
+- `npm install`
 
 <br>
 ### 3. Create .env file
@@ -47,11 +46,10 @@ Create the MySQL database and tables based on the schema.
 
 Run the following commands to set up the database (if not already done):
 
-CREATE DATABASE webapp_db;
-<br>
-USE webapp_db;
+- `CREATE DATABASE webapp_db;`
+- `USE webapp_db;`
 
-CREATE TABLE users (
+- `CREATE TABLE users (
   id INT AUTO_INCREMENT PRIMARY KEY,
   first_name VARCHAR(100),
   <br>
@@ -59,7 +57,7 @@ CREATE TABLE users (
   email VARCHAR(100) UNIQUE,
   phone VARCHAR(15),
   password VARCHAR(255)
-);
+);`
 
 You can also include any other migration scripts in a folder called /migrations.
 
